@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+    text-align:justify;
+    color: brown;
+}
+
+
+nav input{
+    float: left;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+nav a{
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+a:hover{
+    background: rgba(35, 170, 223, 0.3);
+}
+
+.emoji{
+    width: 32px;
+}
+
+.firstword{
+    font-size: 40px;
+}
+
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    text-align:justify;
+}
+
+ul{
+    font-size: 20px;
+    text-align:justify;
+}
+
+.decoration{
+    background-image: url(decoration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center{
+    text-align:center;
+}
+

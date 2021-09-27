@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anxious</title>
+        <link href='emotionpage.css' rel='stylesheet'> 
+    </head>
+    <body>
+        <nav>
+            <input type='text' placeholder='Search..'>
+            <input type='submit' values='Go'>
+            <a href='aboutpage.html'>About</a>
+            <a href='homepage.html'>Home</a>
+        </nav>
+
+        <br>   
+        <h1> Today, you're feeling... anxious <img class='emoji' src= 'anxious.png'></img></h1>
+        <h2> What does this emotion mean?</h2>
+        <p> According to <a href="https://www.dictionary.com/browse/anxious" target="_blank"> Dictionary.com</a>, being anxious is when one is "full of mental distress or uneasiness because of fear of danger or misfortune; greatly worried; apprehensive."</p>
+        
+        <div class="center">  
+            <h2>So, how can you deal with feeling anxious?</h2>
+        </div>
+        
+        <p>
+            <ul>
+            <li>Meditate and use calming breathing exercises</li>
+            <li>Acknowledge what is making you anxious</li>
+            <li>Take a walk to distract yourself</li>
+            <li>Talk to a mental health professional</li>
+            </ul>
+        </p>
+        
+        <div>
+        <img class="img1" src="anxious1.png" width="350" height="250" alt= "girl meditating">
+        <img class="img2" src="anxious2.png" width="350" height="250" alt="woman thinking">
+        <img class="img3" src="anxious3.png" width="350" height="250" alt="walking in the park">
+        </div>
+
+        <br>
+
+        <form action="completepage.html">
+            <label for="expert"><input id="expert" type="checkbox" name="expert"> Talk to an expert</label>
+            <label for="yourself"><input id="yourself" type="checkbox" name="yourself"> Keep a record for yourself</label><br>
+            <br>
+            <input type="text" class='diaryspace' placeholder="Talk to an expert and/or keep an record for yourself.." required>
+            <button type="submit" class='diarybutton' values='Go'>Submit</button>
+        </form>
+ 
+    </body>
+</html>
+
+<style>
+    
+    .diaryspace{
+        width: 75%;
+        height: 200px;
+        text-align:left;
+        background-color:  #f8976d;
+        border: 3px solid #FD814A;
+        color: white;
+        font-size: 20px;
+       
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+        font-size: 30px;
+        font-family: monospace;
+    }
+
+    .diarybutton{
+        height: 208px;
+        color: white;
+
+        background-color:  #9ad3a8;
+        border: 3px solid  #87B792;
+
+    }
+
+</style>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Angry</title>
+        <link href='emotionpage.css' rel='stylesheet'>
+        <script src='emotionpage.js'></script>
+    </head>
+
+    <body>
+        <nav>
+            <input type='text' placeholder='Search..'>
+            <input type='submit' values='Go'>
+            <a href='aboutpage.html'>About</a>
+            <a href='homepage.html'>Home</a>
+        </nav>
+
+        <br>
+        <h1>Today you're feeling...angry <img class='emoji' src='angry.png' alt='angry'></h1>
+
+        <p> <span class='firstword'> Anger </span> is an intense emotional state whereby you may feel irritated, frustrated and resentful. Physical symptoms of anger can include tense muscles, an increased heart rate, feeling hot and shaking. and Remember, if your outbursts can be violent it is important to seek professional support to manage your anger.</p>
+        
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container" style="text-align: center">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="hide fade">
+            <img src="angry1.jpg" style="height:300px;">
+            </div>
+        
+            <div class="hide fade">
+            <img src="angry2.webp" style="height:300px">
+            </div>
+        
+            <div class="hide fade">
+            <img src="angry3.jpg" style="height:300px">
+            </div>
+        
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <h2 class="center">So, how can you deal with feeling angry?</h2>
+        <ul>
+            <li>Exercising can be highly effective for releasing pent up energy.</li>
+            <li>Practicing mindfulness can help you to be aware of your anger and help calm your mind and body.</li>
+            <li>To stop your anger from escalting you could use distraction techniques. For example, you could try taking a cold shower, dancing to upbeat music or journalling.</li>
+        </ul>
+        <br>
+
+        <form action="completepage.html">
+
+            <input type="text" class='diaryspace' placeholder="Elaborate on your emotions.." required>
+            <button type="submit" class='diarybutton' values='Go'>Submit</button>
+        </form>
+
+    </body>
+</html>
+
+
+
+
+
+<style>
+
+    .diaryspace{
+        width: 75%;
+        height: 200px;
+        text-align:left;
+        background-color:  #f8976d;
+        border: 3px solid #FD814A;
+        color: white;
+        font-size: 20px;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+        font-size: 30px;
+        font-family: monospace;
+    }
+
+    .diarybutton{
+        height: 200px;
+        color: white;
+        background-color:  #9ad3a8;
+        border: 3px solid  #87B792;
+    }
+
+    * {box-sizing:border-box}
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+
+    /* Hide the images by default */
+    .hide {
+        display:none;
+        text-align: center;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 5px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+</style>

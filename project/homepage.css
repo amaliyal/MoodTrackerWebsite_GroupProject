@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    color: brown;
+    font-weight: lighter;
+}
+
+img{
+    width: 10%;
+}
+
+nav input{
+    float: left;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+nav a{
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+a:hover{
+    background: rgba(35, 170, 223, 0.3);
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 90px;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 40px;
+    text-align:justify;
+}
+
+.decoration{
+    width:100%;
+    height: 150px;
+}
+
+.center{
+    text-align:center;
+}
